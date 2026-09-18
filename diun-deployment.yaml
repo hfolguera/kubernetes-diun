@@ -78,7 +78,10 @@ spec:
             - name: DIUN_NOTIF_NTFY_TOPIC
               value: "diun"
             - name: DIUN_NOTIF_NTFY_TOKEN
-              value: "tk_nr072c8vilohsezdhpn8admo2isyi"
+              valueFrom:
+                secretKeyRef:
+                  name: diun-ntfy-token
+                  key: token
           # volumeMounts:
           #   - mountPath: "/data"
           #     name: "data"
