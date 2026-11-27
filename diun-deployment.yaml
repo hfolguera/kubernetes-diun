@@ -72,7 +72,7 @@ spec:
             - name: DIUN_PROVIDERS_KUBERNETES_WATCHBYDEFAULT
               value: "true"
             - name: DIUN_PROVIDERS_KUBERNETES_NAMESPACES
-              value: "adguard,argocd,authentik,chartdb,cnpg-system,diun,frigate,gethomepage,ghostfolio,goldengate,grafana,immich,ingress-nginx,invoiceninja,isoflow,it-tools,jellyfin,jenkins,kafka,lubelogger,mariadb,mealie,microbin,mongodb,n8n,ntfy,oracle,postgres,redis,romm,uptimekuma,vaultwarden,wealthfolio,wordpress,nextcloud,vikunja"
+              value: "adguard,argocd,authentik,chartdb,cnpg-system,diun,frigate,gethomepage,ghostfolio,goldengate,grafana,immich,ingress-nginx,invoiceninja,isoflow,it-tools,jellyfin,jenkins,kafka,lubelogger,mariadb,mealie,microbin,mongodb,n8n,ntfy,oracle,postgres,redis,romm,uptimekuma,vaultwarden,wealthfolio,wordpress,nextcloud,vikunja,homeassistant"
             - name: DIUN_NOTIF_NTFY_ENDPOINT
               value: "https://ntfy.calfolguera.freemyip.com"
             - name: DIUN_NOTIF_NTFY_TOPIC
